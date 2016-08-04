@@ -53,6 +53,10 @@
 		29798E751CE614FE00F5CBD0 /* SampleVideo_360x240_5mb in Resources */ = {isa = PBXBuildFile; fileRef = 29B876D71CD70CE700FC07DA /* SampleVideo_360x240_5mb */; };
 		29798E761CE614FE00F5CBD0 /* SampleVideo_360x240_5mb.m3u8 in Resources */ = {isa = PBXBuildFile; fileRef = 29B876D81CD70CE700FC07DA /* SampleVideo_360x240_5mb.m3u8 */; };
 		29798E771CE614FE00F5CBD0 /* SampleVideo_360x240_5mb.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 29B876D91CD70CE700FC07DA /* SampleVideo_360x240_5mb.mp4 */; };
+		2997BDD21D50D2FC000AF900 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2997BDD11D50D2FC000AF900 /* README.md */; };
+		2997BDD41D50D31B000AF900 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2997BDD31D50D31B000AF900 /* README.md */; };
+		2997BDD61D50D3D5000AF900 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2997BDD51D50D3D5000AF900 /* LICENSE.txt */; };
+		2997BDD81D50D3EA000AF900 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2997BDD71D50D3EA000AF900 /* Podfile */; };
 		299AE0E31D44E6EE00D26A49 /* RTSPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299AE0E21D44E6EE00D26A49 /* RTSPConnection.swift */; };
 		299AE0E51D44EC7800D26A49 /* RTSPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299AE0E41D44EC7800D26A49 /* RTSPSocket.swift */; };
 		299AE0E61D45003A00D26A49 /* RTSPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299AE0E21D44E6EE00D26A49 /* RTSPConnection.swift */; };
@@ -154,6 +158,8 @@
 		29B8771B1CD70D5A00FC07DA /* ByteArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B876B81CD70B3900FC07DA /* ByteArray.swift */; };
 		29B8771C1CD70D5A00FC07DA /* CRC32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B876B91CD70B3900FC07DA /* CRC32.swift */; };
 		29B8771D1CD70D5A00FC07DA /* EventDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B876BA1CD70B3900FC07DA /* EventDispatcher.swift */; };
+		29BA5B911D50BEAD00A51EA8 /* RTMPStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA5B901D50BEAD00A51EA8 /* RTMPStreamTests.m */; };
+		29BA5B931D50BEAD00A51EA8 /* lf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B8761B1CD701F900FC07DA /* lf.framework */; };
 		29C263101D007CC20098D4EF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29143DA31D0072700044BE0F /* MainMenu.xib */; };
 		29C263111D007CC20098D4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29143D981D0072590044BE0F /* Assets.xcassets */; };
 		29C263121D007CD50098D4EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29143D971D0072590044BE0F /* AppDelegate.swift */; };
@@ -188,6 +194,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 29C932931CD76FD300283FC5;
 			remoteInfo = "Example MacOS";
+		};
+		29BA5B941D50BEAD00A51EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2945CBB41B4BE66000104112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29B8761A1CD701F900FC07DA;
+			remoteInfo = "lf OSX";
 		};
 		29C932A81CD78B5500283FC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -246,6 +259,10 @@
 		29798E511CE5DF1900F5CBD0 /* MP4File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MP4File.swift; path = Sources/ISO/MP4File.swift; sourceTree = SOURCE_ROOT; };
 		29798E591CE60E5300F5CBD0 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29798E5D1CE60E5300F5CBD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2997BDD11D50D2FC000AF900 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2997BDD31D50D31B000AF900 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2997BDD51D50D3D5000AF900 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		2997BDD71D50D3EA000AF900 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		299AE0E21D44E6EE00D26A49 /* RTSPConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RTSPConnection.swift; path = Sources/RTSP/RTSPConnection.swift; sourceTree = SOURCE_ROOT; };
 		299AE0E41D44EC7800D26A49 /* RTSPSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RTSPSocket.swift; path = Sources/RTSP/RTSPSocket.swift; sourceTree = SOURCE_ROOT; };
 		299B131C1D35272D00A1E8F5 /* ScreenCaptureSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenCaptureSession.swift; path = Platforms/iOS/ScreenCaptureSession.swift; sourceTree = "<group>"; };
@@ -316,6 +333,9 @@
 		29B876D91CD70CE700FC07DA /* SampleVideo_360x240_5mb.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = SampleVideo_360x240_5mb.mp4; path = Tests/SampleVideo_360x240_5mb.mp4; sourceTree = SOURCE_ROOT; };
 		29B876DA1CD70CE700FC07DA /* SwiftCore+ExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SwiftCore+ExtensionTests.swift"; path = "Tests/SwiftCore+ExtensionTests.swift"; sourceTree = SOURCE_ROOT; };
 		29B876DB1CD70CE700FC07DA /* TSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TSTests.swift; path = Tests/TSTests.swift; sourceTree = SOURCE_ROOT; };
+		29BA5B8E1D50BEAD00A51EA8 /* Tests Objective-C.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests Objective-C.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29BA5B901D50BEAD00A51EA8 /* RTMPStreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMPStreamTests.m; sourceTree = "<group>"; };
+		29BA5B921D50BEAD00A51EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29C263171D00804A0098D4EF /* GLLFView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GLLFView.swift; path = Platforms/iOS/GLLFView.swift; sourceTree = "<group>"; };
 		29C9327E1CD76FB800283FC5 /* Example iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C932941CD76FD300283FC5 /* Example OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -354,6 +374,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				14525C16D368EF64B6211E78 /* Pods_lf_OSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BA5B8B1D50BEAD00A51EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BA5B931D50BEAD00A51EA8 /* lf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +526,9 @@
 		2945CBB31B4BE66000104112 = {
 			isa = PBXGroup;
 			children = (
+				2997BDD71D50D3EA000AF900 /* Podfile */,
+				2997BDD51D50D3D5000AF900 /* LICENSE.txt */,
+				2997BDD31D50D31B000AF900 /* README.md */,
 				2968973E1CDB01920074D5F0 /* Examples */,
 				0ACC00B98D6DB33B5BE87B87 /* Frameworks */,
 				299F7E371CD71A76001E7272 /* Platforms */,
@@ -505,6 +536,7 @@
 				2945CBBE1B4BE66000104112 /* Products */,
 				2945CBBF1B4BE66000104112 /* Sources */,
 				29798E5A1CE60E5300F5CBD0 /* Tests */,
+				29BA5B8F1D50BEAD00A51EA8 /* Tests Objective-C */,
 			);
 			sourceTree = "<group>";
 			wrapsLines = 0;
@@ -517,6 +549,7 @@
 				29C9327E1CD76FB800283FC5 /* Example iOS.app */,
 				29C932941CD76FD300283FC5 /* Example OSX.app */,
 				29798E591CE60E5300F5CBD0 /* Tests.xctest */,
+				29BA5B8E1D50BEAD00A51EA8 /* Tests Objective-C.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -674,6 +707,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		29BA5B8F1D50BEAD00A51EA8 /* Tests Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				29BA5B921D50BEAD00A51EA8 /* Info.plist */,
+				29BA5B901D50BEAD00A51EA8 /* RTMPStreamTests.m */,
+				2997BDD11D50D2FC000AF900 /* README.md */,
+			);
+			path = "Tests Objective-C";
+			sourceTree = "<group>";
+		};
 		29BDE0BD1C65BC2400D6A768 /* Media */ = {
 			isa = PBXGroup;
 			children = (
@@ -810,6 +853,24 @@
 			productReference = 29B8761B1CD701F900FC07DA /* lf.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		29BA5B8D1D50BEAD00A51EA8 /* Tests Objective-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29BA5B961D50BEAD00A51EA8 /* Build configuration list for PBXNativeTarget "Tests Objective-C" */;
+			buildPhases = (
+				29BA5B8A1D50BEAD00A51EA8 /* Sources */,
+				29BA5B8B1D50BEAD00A51EA8 /* Frameworks */,
+				29BA5B8C1D50BEAD00A51EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29BA5B951D50BEAD00A51EA8 /* PBXTargetDependency */,
+			);
+			name = "Tests Objective-C";
+			productName = "Tests Objective-C";
+			productReference = 29BA5B8E1D50BEAD00A51EA8 /* Tests Objective-C.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		29C9327D1CD76FB800283FC5 /* Example iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29C9328D1CD76FB800283FC5 /* Build configuration list for PBXNativeTarget "Example iOS" */;
@@ -872,6 +933,9 @@
 					29B8761A1CD701F900FC07DA = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					29BA5B8D1D50BEAD00A51EA8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					29C9327D1CD76FB800283FC5 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -898,6 +962,7 @@
 				29C9327D1CD76FB800283FC5 /* Example iOS */,
 				29C932931CD76FD300283FC5 /* Example OSX */,
 				29798E581CE60E5300F5CBD0 /* Tests */,
+				29BA5B8D1D50BEAD00A51EA8 /* Tests Objective-C */,
 			);
 		};
 /* End PBXProject section */
@@ -924,6 +989,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BA5B8C1D50BEAD00A51EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2997BDD81D50D3EA000AF900 /* Podfile in Resources */,
+				2997BDD61D50D3D5000AF900 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1307,6 +1381,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		29BA5B8A1D50BEAD00A51EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2997BDD41D50D31B000AF900 /* README.md in Sources */,
+				2997BDD21D50D2FC000AF900 /* README.md in Sources */,
+				29BA5B911D50BEAD00A51EA8 /* RTMPStreamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		29C9327A1CD76FB800283FC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1340,6 +1424,11 @@
 			isa = PBXTargetDependency;
 			target = 29C932931CD76FD300283FC5 /* Example OSX */;
 			targetProxy = 29798E641CE60E5E00F5CBD0 /* PBXContainerItemProxy */;
+		};
+		29BA5B951D50BEAD00A51EA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29B8761A1CD701F900FC07DA /* lf OSX */;
+			targetProxy = 29BA5B941D50BEAD00A51EA8 /* PBXContainerItemProxy */;
 		};
 		29C932A91CD78B5500283FC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1594,6 +1683,35 @@
 			};
 			name = Release;
 		};
+		29BA5B971D50BEAD00A51EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Tests Objective-C/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.shogo4405.Tests-Objective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		29BA5B981D50BEAD00A51EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests Objective-C/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.shogo4405.Tests-Objective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		29C9328E1CD76FB800283FC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 533C38C964051C778E6633CC /* Pods-Example iOS.debug.xcconfig */;
@@ -1700,6 +1818,15 @@
 			buildConfigurations = (
 				29B876211CD701F900FC07DA /* Debug */,
 				29B876221CD701F900FC07DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29BA5B961D50BEAD00A51EA8 /* Build configuration list for PBXNativeTarget "Tests Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29BA5B971D50BEAD00A51EA8 /* Debug */,
+				29BA5B981D50BEAD00A51EA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
